@@ -15,6 +15,6 @@ class ExampleTest extends TestCase
 
     public function testExample1(): void
     {
-        $this->assertSame(1, '5');
+        $this->assertSame(1, 5);
     }
 }
