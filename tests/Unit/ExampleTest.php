@@ -12,4 +12,9 @@ class ExampleTest extends TestCase
     {
         $this->assertSame(1, 1);
     }
+
+    public function testExample1(): void
+    {
+        $this->assertSame(1, '5');
+    }
 }
