@@ -1,0 +1,22 @@
+{
+    "name": "root/www",
+    "type": "project",
+    "description": "Project to tests Github Actions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Velder Soares",
+            "email": "velder.vas@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "phpstan/phpstan": "^0.12.82",
+        "nunomaduro/phpinsights": "^1.14"
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Tests\\": "tests/"
+        }
+    }
+}
